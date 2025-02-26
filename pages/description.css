@@ -1,0 +1,26 @@
+.description__content {
+  margin: 0 auto 0 0;
+  max-width: 722px;
+  /*max-height: 182px;*/
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: start;
+}
+@media screen and (max-width: 768px) {
+  .description__content {
+    /*max-width: 720px;*/
+    /* max-height: 182px;*/
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .description__content {
+    /* max-width: 288px;*/
+    /*max-height: 442px;*/
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
