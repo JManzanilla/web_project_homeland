@@ -1,16 +1,20 @@
+.description {
+  margin: 0;
+  /*max-width: 830px;*/
+}
 .description__title {
   max-width: 830px;
   /* max-height: 174px;*/
-  margin: 0 auto 40px 0;
+  margin: 0 auto 40px 139.5px;
   font-family: "Inter";
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   text-align: start;
-  text-wrap: balance;
+  /* text-wrap: balance;*/
 }
 .description__content {
-  margin: 0 auto 10px 0;
+  margin: 0 auto 10px 139.5px;
   max-width: 738px;
   /*max-height: 136px;*/
   font-family: "Inter";
@@ -20,7 +24,7 @@
   text-align: start;
 }
 .description__autor {
-  margin: 0 auto 32px 0;
+  margin: 0 auto 32px 139.5px;
   max-width: 732px;
   /*max-height: 34px;*/
   text-align: end;
@@ -30,7 +34,7 @@
   line-height: 34px;
 }
 .description__content-final {
-  margin: 0 auto 0 0;
+  margin: 0 auto 0 139.5px;
   max-width: 722px;
   /*max-height: 182px;*/
   font-family: "Inter";
@@ -51,22 +55,26 @@
     font-size: 45px;
     line-height: 49px;
     text-wrap: balance;
+    margin-left: auto;
   }
   .description__content {
     /*max-width: 720px;*/
     /*max-height: 136px;*/
     font-size: 24px;
     line-height: 34px;
+    margin-left: auto;
   }
   .description__autor {
     /*max-width: 720px;*/
     /* max-height: 34px;*/
     font-size: 24px;
     line-height: 34px;
+    margin-left: auto;
   }
   .description__content-final {
     font-size: 16px;
     line-height: 26px;
+    margin-left: auto;
   }
 }
 @media screen and (max-width: 320px) {

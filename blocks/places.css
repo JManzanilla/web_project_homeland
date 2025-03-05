@@ -1,0 +1,47 @@
+.places {
+  margin: 0 auto;
+}
+
+.places__gales {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "a1 a2"
+    "a3 a4"
+    "a5 a4";
+  /*grid-template-areas:
+    "A1 .  "
+    "A1 A2 "
+    "A4 A3 "
+    "A4 A5 "
+    "A4 A6 "
+    "A7 .  ";*/
+}
+.a {
+  grid-area: a4;
+}
+/*.places__gales-title {
+  grid-area: A1;
+}
+.places__gales-subtitle {
+  grid-area: A2;
+}
+.places__gales-description {
+  grid-area: A3;
+}
+
+.places__gales-image {
+  width: 460px;
+  height: 460px;
+  grid-area: A4;
+}
+.places__gales-content {
+  grid-area: A5;
+}
+.places__gales-content2 {
+  grid-area: A6;
+}
+.places__gales-buttom {
+  grid-area: A7;
+}*/
