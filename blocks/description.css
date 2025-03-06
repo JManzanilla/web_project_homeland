@@ -1,3 +1,11 @@
+.description {
+  margin: auto;
+  max-width: 984px;
+}
+.description__article {
+  margin: 0;
+}
+
 .description__title {
   max-width: 830px;
   /* max-height: 174px;*/
@@ -7,7 +15,7 @@
   font-size: 54px;
   line-height: 58px;
   text-align: start;
-  text-wrap: balance;
+  /* text-wrap: balance;*/
 }
 .description__content {
   margin: 0 auto 10px 0;
@@ -51,22 +59,26 @@
     font-size: 45px;
     line-height: 49px;
     text-wrap: balance;
+    margin-left: auto;
   }
   .description__content {
     /*max-width: 720px;*/
     /*max-height: 136px;*/
     font-size: 24px;
     line-height: 34px;
+    margin-left: auto;
   }
   .description__autor {
     /*max-width: 720px;*/
     /* max-height: 34px;*/
     font-size: 24px;
     line-height: 34px;
+    margin-left: auto;
   }
   .description__content-final {
     font-size: 16px;
     line-height: 26px;
+    margin-left: auto;
   }
 }
 @media screen and (max-width: 320px) {
