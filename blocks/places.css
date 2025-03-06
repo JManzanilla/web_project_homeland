@@ -1,8 +1,10 @@
 .places {
   margin: 0 auto;
+  max-width: 987px;
 }
 
 .places__gales {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
@@ -18,8 +20,57 @@
     "A4 A6 "
     "A7 .  ";*/
 }
-.a {
+.places__gales-title {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 460px;
+  /*max-height: 152px;*/
+}
+.places__gales-artist {
+  max-width: 456px;
+  justify-self: start;
+  align-self: end;
+}
+.places__gales-artist-subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.5px;
+}
+.places__gales-artist-description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 330px;
+}
+.places__gales-artist-description-span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.places__gales-content {
   grid-area: a4;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.places__gales-buttom {
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  color: #fff;
+  border-radius: 0;
+  /*max-width: 289px;
+  max-height: 48px;*/
+  margin: 48px auto auto 0;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px 20px;
 }
 /*.places__gales-title {
   grid-area: A1;

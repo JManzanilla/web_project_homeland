@@ -8,8 +8,9 @@
   margin: 118px auto 92px;
 }
 .gallery__image {
-  max-width: 284px;
-  max-height: 213px;
+  width: 100%;
+  /*max-width: 284px;
+  max-height: 213px;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -28,12 +29,13 @@
 }
 @media screen and (max-width: 320px) {
   .gallery {
+    width: 100%;
     max-width: 320px;
     display: block;
   }
   .gallery__image {
-    max-width: 288px;
-    max-height: 216px;
+    /*max-width: 288px;
+    max-height: 216px;*/
     width: 100%;
     margin-bottom: 12px;
   }
