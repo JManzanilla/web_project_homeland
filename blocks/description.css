@@ -1,11 +1,15 @@
 .description {
-  margin: 0;
-  /*max-width: 830px;*/
+  margin: auto;
+  max-width: 984px;
 }
+.description__article {
+  margin: 0;
+}
+
 .description__title {
   max-width: 830px;
   /* max-height: 174px;*/
-  margin: 0 auto 40px 139.5px;
+  margin: 0 auto 40px 0;
   font-family: "Inter";
   font-weight: 900;
   font-size: 54px;
@@ -14,7 +18,7 @@
   /* text-wrap: balance;*/
 }
 .description__content {
-  margin: 0 auto 10px 139.5px;
+  margin: 0 auto 10px 0;
   max-width: 738px;
   /*max-height: 136px;*/
   font-family: "Inter";
@@ -24,7 +28,7 @@
   text-align: start;
 }
 .description__autor {
-  margin: 0 auto 32px 139.5px;
+  margin: 0 auto 32px 0;
   max-width: 732px;
   /*max-height: 34px;*/
   text-align: end;
@@ -34,7 +38,7 @@
   line-height: 34px;
 }
 .description__content-final {
-  margin: 0 auto 0 139.5px;
+  margin: 0 auto 0 0;
   max-width: 722px;
   /*max-height: 182px;*/
   font-family: "Inter";
